@@ -58,7 +58,7 @@ function nextSequence() {
   $("#" + randomChosenColor).fadeOut().fadeIn('medium');
   playSound(randomChosenColor);
   level++;
-  $("h1").text("level" + level);
+  $("h1").text("level " + level);
 }
 $(".btn").click(function() {
   var userChosenColor = $(this).attr("id");
